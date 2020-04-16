@@ -110,7 +110,7 @@ steps:
         source: "#validation_email/finished"
     out: [finished]
 
-  download_gold_pval
+  download_gold_pval:
     run: https://raw.githubusercontent.com/Sage-Bionetworks/synapse-client-cwl-tools/v0.1/synapse-get-tool.cwl
     in:
       - id: synapseid
@@ -120,7 +120,7 @@ steps:
     out:
       - id: filepath
 
-  download_gold_auc
+  download_gold_auc:
     run: https://raw.githubusercontent.com/Sage-Bionetworks/synapse-client-cwl-tools/v0.1/synapse-get-tool.cwl
     in:
       - id: synapseid
