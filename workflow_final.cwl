@@ -145,7 +145,7 @@ steps:
       - id: results
       
   score_email:
-    run: https://raw.githubusercontent.com/Sage-Bionetworks/ChallengeWorkflowTemplates/v2.7/score_email.cwl
+    run: https://raw.githubusercontent.com/Sage-Bionetworks/ChallengeWorkflowTemplates/v2.5/score_email.cwl
     in:
       - id: submissionid
         source: "#submissionId"
